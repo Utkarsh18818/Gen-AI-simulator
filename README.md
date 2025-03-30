@@ -40,7 +40,7 @@ Steps
 
 Clone the repository:
 
-git clone https://github.com/yourusername/gen-ai-query-api.git
+git clone https://github.com/Utkarsh18818/gen-ai-query-api.git
 cd gen-ai-query-api
 
 Install dependencies:
@@ -114,28 +114,6 @@ Response:
   "valid": true
 }
 
-Deployment
-
-Deploy on Render
-
-Push your code to GitHub:
-
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/gen-ai-query-api.git
-git push -u origin main
-
-Create an account on Render
-
-Click "New Web Service" and connect your GitHub repository
-
-Set Build Command: npm install
-
-Set Start Command: node server.js
-
-Click Deploy and get your live API URL
 
 Deploy on Railway
 
@@ -173,13 +151,9 @@ Get your Live API URL:
 
 heroku open
 
-Testing with Postman or Curl
+Testing with Postman 
 
 Postman: Import the API endpoints and test requests.
-
-Curl Example:
-
-curl -X GET https://your-api.onrender.com/token
 
 License
 
@@ -187,5 +161,5 @@ This project is open-source and free to use.
 
 Author
 
-[Your Name] - Backend Engineering Intern Challenge
+[Utkarsh Singh] - Backend Engineering Intern Challenge
 
